@@ -31,7 +31,6 @@
     .text-glow {
       text-shadow: 0 0 40px rgba(132, 204, 22, 0.15);
     }
-    /* Custom Scrollbar for Media Grid */
     .custom-scroll::-webkit-scrollbar { width: 4px; }
     .custom-scroll::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.02); }
     .custom-scroll::-webkit-scrollbar-thumb { background: rgba(132, 204, 22, 0.3); border-radius: 10px; }
@@ -50,7 +49,7 @@
       <div class="hidden md:flex items-center gap-8 text-sm font-medium text-emerald-400/70">
         <a href="#experience" class="hover:text-lime-400 transition-colors">Experience</a>
         <a href="#projects" class="hover:text-lime-400 transition-colors">Projects</a>
-        <a href="#media" class="hover:text-lime-400 transition-colors">Media Center</a>
+        <a href="#media" class="hover:text-lime-400 transition-colors">Media</a>
       </div>
 
       <a href="mailto:contact@chima.dev" class="hidden md:flex items-center gap-2 text-xs font-medium text-emerald-50 bg-emerald-900/30 hover:bg-emerald-800/50 px-3 py-1.5 rounded-lg border border-emerald-800 hover:border-lime-500/30 transition-all group">
@@ -60,7 +59,7 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <header class="relative pt-32 pb-20 md:pt-48 md:pb-32 px-6 overflow-hidden">
     <div class="max-w-4xl mx-auto text-center relative z-10">
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/50 border border-emerald-800/50 text-xs font-medium text-lime-400 mb-8 mx-auto hover:border-lime-500/30 transition-colors cursor-default">
@@ -99,15 +98,12 @@
         <div class="group h-12 w-full flex items-center justify-center transition-all duration-300 hover:scale-105 cursor-default grayscale-[0.3] hover:grayscale-0">
           <iconify-icon icon="simple-icons:nintendo" width="100" class="text-[#E60012] opacity-90 group-hover:opacity-100 transition-opacity"></iconify-icon>
         </div>
-
         <div class="group h-12 w-full flex items-center justify-center transition-all duration-300 hover:scale-105 cursor-default grayscale-[0.3] hover:grayscale-0">
           <iconify-icon icon="simple-icons:epicgames" width="40" class="text-white opacity-80 group-hover:opacity-100 transition-opacity"></iconify-icon>
         </div>
-
         <div class="group h-12 w-full flex items-center justify-center transition-all duration-300 hover:scale-105 cursor-default grayscale-[0.3] hover:grayscale-0">
           <iconify-icon icon="simple-icons:activision" width="100" class="text-white opacity-80 group-hover:opacity-100 transition-opacity"></iconify-icon>
         </div>
-
         <div class="group h-12 w-full flex items-center justify-center transition-all duration-300 hover:scale-105 cursor-default grayscale-[0.3] hover:grayscale-0">
           <div class="flex items-center gap-2">
             <iconify-icon icon="simple-icons:playstation" width="36" class="text-white opacity-90 group-hover:opacity-100 transition-opacity"></iconify-icon>
@@ -117,14 +113,12 @@
             </div>
           </div>
         </div>
-
         <div class="group h-12 w-full flex items-center justify-center transition-all duration-300 hover:scale-105 cursor-default">
           <div class="flex items-center gap-1.5 opacity-90 group-hover:opacity-100 transition-opacity">
             <iconify-icon icon="simple-icons:zynga" width="32" class="text-[#ea0a1e]"></iconify-icon>
             <span class="text-2xl font-bold tracking-tighter text-white lowercase" style="font-family:sans-serif;">zynga</span>
           </div>
         </div>
-
         <div class="group h-12 w-full flex items-center justify-center transition-all duration-300 hover:scale-105 cursor-default grayscale-[0.3] hover:grayscale-0">
           <div class="flex flex-col items-center leading-none text-white opacity-90 group-hover:opacity-100 transition-opacity">
             <span class="text-[14px] font-[900] uppercase tracking-[0.2em]">Gravity</span>
@@ -135,10 +129,10 @@
     </div>
   </section>
 
-  <!-- Main Content Grid -->
+  <!-- Main Content -->
   <main class="max-w-6xl mx-auto px-6 py-20 md:py-32 space-y-24">
 
-    <!-- IGDA Foundation Section -->
+    <!-- IGDA Section -->
     <section class="grid md:grid-cols-2 gap-12 items-center">
       <div class="order-2 md:order-1 relative">
         <div class="absolute inset-0 bg-gradient-to-tr from-emerald-500/20 to-lime-500/10 rounded-2xl blur-xl"></div>
@@ -188,7 +182,7 @@
       </div>
     </section>
 
-    <!-- Enter Africa Project Section -->
+    <!-- Projects -->
     <section id="projects" class="relative">
       <div class="mb-12">
         <h2 class="text-3xl md:text-4xl font-medium text-white tracking-tight mb-4">The Enter Africa Initiative</h2>
@@ -252,80 +246,29 @@
       </div>
     </section>
 
-    <!-- Media Section (GitHub-driven via /content/media.json) -->
+    <!-- Media (no toggles, no instructions) -->
     <section id="media" class="py-6">
-      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+      <div class="flex items-end justify-between mb-8 gap-4">
         <div>
-          <h2 class="text-3xl md:text-4xl font-medium text-white tracking-tight mb-2">Media Center</h2>
-          <p class="text-emerald-200/60 font-light">Upload media to GitHub and update <span class="text-lime-400/90 font-medium">content/media.json</span>.</p>
-        </div>
-
-        <!-- Optional UI (no backend) -->
-        <div class="flex items-center gap-3 bg-emerald-950/50 border border-emerald-800/50 p-1 rounded-full self-start">
-          <button class="px-4 py-1.5 rounded-full bg-lime-400 text-emerald-950 text-xs font-medium shadow-sm transition-all" type="button">Public</button>
-          <button class="px-4 py-1.5 rounded-full text-emerald-400 text-xs font-medium hover:text-white transition-colors" type="button">Private</button>
+          <h2 class="text-3xl md:text-4xl font-medium text-white tracking-tight mb-2">Media</h2>
+          <p class="text-emerald-200/60 font-light">Highlights, articles, and coverage.</p>
         </div>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-6 h-[500px]">
-        <!-- Instructions Column -->
-        <div class="md:col-span-1 flex flex-col gap-4">
-          <div class="glass-card rounded-2xl p-6 border border-emerald-800/50">
-            <div class="flex items-center gap-2 mb-3 text-sm text-white font-medium">
-              <iconify-icon icon="solar:folder-with-files-linear" class="text-lime-400"></iconify-icon>
-              GitHub Upload Workflow
-            </div>
-            <ol class="list-decimal pl-5 space-y-2 text-xs text-emerald-200/70 leading-relaxed">
-              <li>Upload images to <span class="text-lime-400/90 font-medium">/assets/uploads/</span> in your repo</li>
-              <li>Edit <span class="text-lime-400/90 font-medium">/content/media.json</span> to add new items</li>
-              <li>Commit changes — Netlify redeploys automatically</li>
-              <li>Refresh this page to see updates</li>
-            </ol>
-            <div class="mt-4 text-[11px] text-emerald-400/70">
-              Tip: For videos, use YouTube/Vimeo links (unlisted is fine) to keep your repo light.
-            </div>
-          </div>
-
-          <div class="glass-card rounded-2xl p-6 border border-emerald-800/50">
-            <div class="flex items-center gap-2 mb-3 text-sm text-white font-medium">
-              <iconify-icon icon="solar:code-linear" class="text-lime-400"></iconify-icon>
-              media.json Example
-            </div>
-            <pre class="text-[10px] leading-relaxed text-emerald-200/60 bg-emerald-950/40 border border-emerald-800/50 rounded-xl p-4 overflow-x-auto custom-scroll"><code>{
-  "items": [
-    { "title": "Conference 2023", "type": "image", "image": "/assets/uploads/conference.jpg" },
-    { "title": "Devlog Update", "type": "video", "videoUrl": "https://youtu.be/XXXX" },
-    { "title": "Press Feature", "type": "link", "linkUrl": "https://medium.com/..." }
-  ]
-}</code></pre>
-          </div>
-        </div>
-
-        <!-- Media Grid -->
-        <div class="md:col-span-2 glass-card rounded-2xl p-6 flex flex-col">
-          <!-- Filters (UI only - optional enhancement later) -->
-          <div class="flex gap-6 border-b border-emerald-800/50 pb-4 mb-4 text-xs font-medium">
-            <button class="text-lime-400 border-b-2 border-lime-400 pb-4 -mb-4.5" type="button">All Files</button>
-            <button class="text-emerald-500 hover:text-emerald-200 transition-colors" type="button">Images</button>
-            <button class="text-emerald-500 hover:text-emerald-200 transition-colors" type="button">Videos</button>
-            <button class="text-emerald-500 hover:text-emerald-200 transition-colors" type="button">Articles</button>
-          </div>
-
-          <!-- Scrollable Content -->
-          <div class="overflow-y-auto custom-scroll flex-1 pr-2">
-            <!-- JS renders items into this grid -->
-            <div id="media-grid" class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-              <!-- Fallback while loading -->
-              <div class="animate-pulse aspect-square rounded-xl bg-emerald-900/30 border border-emerald-800/50"></div>
-              <div class="animate-pulse aspect-square rounded-xl bg-emerald-900/30 border border-emerald-800/50"></div>
-              <div class="animate-pulse aspect-square rounded-xl bg-emerald-900/30 border border-emerald-800/50"></div>
-            </div>
+      <div class="glass-card rounded-2xl p-6">
+        <div class="overflow-y-auto custom-scroll pr-2">
+          <div id="media-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 min-h-[120px]">
+            <!-- Loading skeleton -->
+            <div class="animate-pulse aspect-square rounded-xl bg-emerald-900/30 border border-emerald-800/50"></div>
+            <div class="animate-pulse aspect-square rounded-xl bg-emerald-900/30 border border-emerald-800/50"></div>
+            <div class="animate-pulse aspect-square rounded-xl bg-emerald-900/30 border border-emerald-800/50"></div>
+            <div class="animate-pulse aspect-square rounded-xl bg-emerald-900/30 border border-emerald-800/50 hidden lg:block"></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA Section -->
+    <!-- CTA -->
     <section class="py-20 text-center border-t border-emerald-900/30">
       <h2 class="text-3xl md:text-5xl font-medium text-white tracking-tight mb-6">Ready to create the extraordinary?</h2>
       <p class="text-emerald-500 mb-8">Open for collaboration on high-impact gaming projects.</p>
@@ -343,7 +286,6 @@
         © <script>document.write(new Date().getFullYear())</script> Chima Denzel Ngerem. All rights reserved.
       </div>
       <div class="flex gap-6">
-        <!-- Replace # with your real links -->
         <a href="#" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-lime-400 transition-colors" aria-label="LinkedIn">
           <iconify-icon icon="solar:brand-linkedin-linear" width="20"></iconify-icon>
         </a>
@@ -365,24 +307,28 @@
       }[c]));
     }
 
+    function buildEmptyState() {
+      return `
+        <div class="col-span-2 sm:col-span-3 lg:col-span-4 text-center text-xs text-emerald-400/70 py-10">
+          No media yet.
+        </div>
+      `;
+    }
+
     async function loadMedia() {
       const grid = document.getElementById('media-grid');
       if (!grid) return;
 
       try {
         const res = await fetch('/content/media.json', { cache: 'no-store' });
-        if (!res.ok) throw new Error('media.json not found or not accessible');
+        if (!res.ok) throw new Error('media.json not found');
         const data = await res.json();
 
         const items = Array.isArray(data.items) ? data.items : [];
         grid.innerHTML = '';
 
         if (!items.length) {
-          grid.innerHTML = `
-            <div class="col-span-2 sm:col-span-3 text-center text-xs text-emerald-400/70 py-10">
-              No media yet. Upload files to <span class="text-lime-400/90 font-medium">/assets/uploads</span> and edit <span class="text-lime-400/90 font-medium">/content/media.json</span>.
-            </div>
-          `;
+          grid.innerHTML = buildEmptyState();
           return;
         }
 
@@ -455,14 +401,7 @@
         });
       } catch (err) {
         console.warn('Failed to load media.json:', err);
-        grid.innerHTML = `
-          <div class="col-span-2 sm:col-span-3 text-center text-xs text-emerald-400/70 py-10">
-            Couldn’t load <span class="text-lime-400/90 font-medium">/content/media.json</span>.
-            <div class="mt-2 text-[10px] text-emerald-500/70">
-              Ensure the file exists in your repo and is deployed to Netlify.
-            </div>
-          </div>
-        `;
+        grid.innerHTML = buildEmptyState();
       }
     }
 
