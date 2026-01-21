@@ -11,9 +11,15 @@
       "videoUrl": "https://www.youtube.com/watch?v=XXXXXXX"
     },
     {
-      "title": "The Future of African Gaming",
+      "title": "Chima at HBCU Game Jam with Zynga",
       "type": "link",
-      "linkUrl": "https://medium.com/your-article"
-    }
+      "linkUrl": "https://www.zynga.com/people/hbcu-game-jam-at-spelman-college/"
+    },
+{
+  "title": "Chima as head of IGDA Foundation Scholars programme",
+  "type": "link",
+  "linkUrl": "https://www.igdafoundation.org/news/a/2022/03/igda-foundation-opens-2022-diverse-game-developers-virtual-exchange-applications"
+}
+
   ]
 }
