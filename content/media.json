@@ -14,11 +14,25 @@
       "title": "Chima at HBCU Game Jam with Zynga",
       "type": "link",
       "linkUrl": "https://www.zynga.com/people/hbcu-game-jam-at-spelman-college/"
+      "thumbnail": "/assets/uploads/devlog_thumb.jpg"
     },
 {
   "title": "Chima as head of IGDA Foundation Scholars programme",
   "type": "link",
   "linkUrl": "https://www.igdafoundation.org/news/a/2022/03/igda-foundation-opens-2022-diverse-game-developers-virtual-exchange-applications"
+  "thumbnail": "/assets/uploads/" 
+},
+     {
+      "title": "Chima in Enter Africa Lagos Team",
+      "type": "link",
+      "linkUrl": "https://newmedia.ng/2019/04/25/goethe-institut-lagos-opens-games-and-politics/"
+      "thumbnail": "/assets/uploads"
+    },
+{
+  "title": "",
+  "type": "link",
+  "linkUUrl": "",
+  "thumbnail": "/assets/uploads/"
 }
 
   ]
