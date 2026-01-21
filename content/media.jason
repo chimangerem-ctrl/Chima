@@ -1,1 +1,19 @@
-n
+{
+  "items": [
+    {
+      "title": "Conference 2023",
+      "type": "image",
+      "image": "/assets/uploads/conference_2023.jpg"
+    },
+    {
+      "title": "Devlog Update",
+      "type": "video",
+      "videoUrl": "https://www.youtube.com/watch?v=XXXXXXX"
+    },
+    {
+      "title": "The Future of African Gaming",
+      "type": "link",
+      "linkUrl": "https://medium.com/your-article"
+    }
+  ]
+}
