@@ -1,56 +1,40 @@
 {
   "items": [
     {
-      "title": "Conference 2023",
-      "type": "image",
-      "image": "/assets/uploads/conference_2023.jpg"
-    },
-    {
-      "title": "Devlog Update",
-      "type": "video",
-      "videoUrl": "https://www.youtube.com/watch?v=XXXXXXX"
-    },
-    {
       "title": "Chima at HBCU Game Jam with Zynga 2024",
       "type": "link",
-      "linkUrl": "https://www.zynga.com/people/hbcu-game-jam-at-spelman-college/"
+      "linkUrl": "https://www.zynga.com/people/hbcu-game-jam-at-spelman-college/",
       "thumbnail": "/assets/uploads/zynga.png"
     },
-{
-  "title": "Chima as head of IGDA Foundation Scholars programme",
-  "type": "link",
-  "linkUrl": "https://www.igdafoundation.org/news/a/2022/03/igda-foundation-opens-2022-diverse-game-developers-virtual-exchange-applications"
-  "thumbnail": "/assets/uploads/reggie.png" 
-},
-     {
+    {
+      "title": "Chima as head of IGDA Foundation Scholars programme",
+      "type": "link",
+      "linkUrl": "https://www.igdafoundation.org/news/a/2022/03/igda-foundation-opens-2022-diverse-game-developers-virtual-exchange-applications",
+      "thumbnail": "/assets/uploads/reggie.png"
+    },
+    {
       "title": "Chima in Enter Africa Lagos Team 2019",
       "type": "link",
-      "linkUrl": "https://newmedia.ng/2019/04/25/goethe-institut-lagos-opens-games-and-politics/"
+      "linkUrl": "https://newmedia.ng/2019/04/25/goethe-institut-lagos-opens-games-and-politics/",
       "thumbnail": "/assets/uploads/goethe.png"
     },
-{
-  "title": "Chima invited by Goethe-Institut Nigeria, 2019",
-  "type": "link",
-  "linkUUrl": "https://www.facebook.com/goethe.nigeria/posts/pfbid08Q8rEESJVtYQcDFwpE7RYojMPx58cuxm495Kx8Lqf1WEWVbG25bAsPVnaTvLCL54l",
-  "thumbnail": "/assets/uploads/gamesandpolitics.jpg"
-},
     {
-  "title": "Birmingham City Univeristy Digital Horizons 2024",
-  "type": "link",
-  "linkUUrl": "",
-  "thumbnail": "/assets/uploads/BCU2.png"
-}
-{
-  "title": "Chima on Keywords Webinar",
-  "type": "link",
-  "linkUUrl": "https://get.helpshift.com/high-stakes-of-real-life-threats",
-  "thumbnail": "/assets/uploads/keywords.jpeg"
-}
+      "title": "Chima invited by Goethe-Institut Nigeria, 2019",
+      "type": "link",
+      "linkUrl": "https://www.facebook.com/goethe.nigeria/posts/pfbid08Q8rEESJVtYQcDFwpE7RYojMPx58cuxm495Kx8Lqf1WEWVbG25bAsPVnaTvLCL54l",
+      "thumbnail": "/assets/uploads/gamesandpolitics.jpg"
+    },
     {
-  "title": "",
-  "type": "link",
-  "linkUUrl": "",
-  "thumbnail": "/assets/uploads/"
-}
+      "title": "Birmingham City University Digital Horizons 2024",
+      "type": "link",
+      "linkUrl": "",
+      "thumbnail": "/assets/uploads/BCU2.png"
+    },
+    {
+      "title": "Chima on Keywords Webinar",
+      "type": "link",
+      "linkUrl": "https://get.helpshift.com/high-stakes-of-real-life-threats",
+      "thumbnail": "/assets/uploads/keywords.jpeg"
+    }
   ]
 }
