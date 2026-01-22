@@ -4,13 +4,13 @@
       "title": "Chima at HBCU Game Jam with Zynga 2024",
       "type": "link",
       "linkUrl": "https://www.zynga.com/people/hbcu-game-jam-at-spelman-college/",
-      "thumbnail": "/assets/uploads/zynga.png"
+      "thumbnail": "/assets/uploads/zynga.jpeg"
     },
     {
       "title": "Chima as head of IGDA Foundation Scholars programme",
       "type": "link",
       "linkUrl": "https://www.igdafoundation.org/news/a/2022/03/igda-foundation-opens-2022-diverse-game-developers-virtual-exchange-applications",
-      "thumbnail": "/assets/uploads/reggie.png"
+      "thumbnail": "/assets/uploads/Reggie.png"
     },
     {
       "title": "Chima in Enter Africa Lagos Team 2019",
@@ -26,9 +26,8 @@
     },
     {
       "title": "Birmingham City University Digital Horizons 2024",
-      "type": "link",
-      "linkUrl": "",
-      "thumbnail": "/assets/uploads/BCU2.png"
+      "type": "image",
+      "image":"/assets/uploads/BCU2.png"
     },
     {
       "title": "Chima on Keywords Webinar",
